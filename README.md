@@ -28,6 +28,7 @@ docker-compose exec db bash
 ```
 USERNAME = user
 PASSWORD = secret
+DATABASE = db
 PORT = 3306
 HOST = db (if you're connecting from a container)
 HOST = localhost (if you're connecting from your machine)
