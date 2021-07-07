@@ -29,7 +29,7 @@
                 <p class="lead">Simple & easy to get started</p>
                 <hr />
                 <p>
-                    <b>PHP 8.0</b>
+                    <b>PHP <?= phpversion() ?></b>
                     <br />
                     <a target='_blank' href="/info.php">see info</a>
                     <br />
@@ -41,7 +41,7 @@
                 </p>
                 <hr />
                 <p>
-                    <b>MySQL 5.7</b>
+                    <b>MySQL <?= $conn->query('select version()')->fetchColumn() ?></b>
                     <br />
                     <?php if ($dbConnected) : ?>
                         <span class="badge badge-success">Connected to Database succesfully</span>
