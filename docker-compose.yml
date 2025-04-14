@@ -8,12 +8,11 @@ services:
         links:
             - db
         ports:
-            - "80:80"
-            - "443:433"
+            - "8080:80"
         volumes:
             - ./src:/var/www/html
     db:
-        image: mysql:8.0.26
+        image: mysql:latest
         restart: always
         environment:
             MYSQL_DATABASE: "db"

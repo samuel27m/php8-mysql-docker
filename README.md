@@ -8,6 +8,7 @@ A docker-compose with PHP 8 &amp; MySQL 5.7, ready to go
 2. Clone the repo `git clone https://github.com/samuel27m/php8-mysql-docker.git`
 3. Go to 'php8-mysql-docker' folder.
 4. Run `docker-compose up -d `
+5. Visit http://localhost:8080
 
 ### Commands
 
